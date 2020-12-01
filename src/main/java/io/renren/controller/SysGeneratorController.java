@@ -59,4 +59,14 @@ public class SysGeneratorController {
   
         IOUtils.write(data, response.getOutputStream());  
 	}
+
+	/**
+	 * @author dongxuelei
+	 * @date 20201130
+	 * 对接高德api
+	 */
+	@RequestMapping("geode")
+	public void geode(){
+
+	}
 }
